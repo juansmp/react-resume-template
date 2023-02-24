@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'Juan S. Morant P. | Full Stack Developer',
-  description: "Portfolio of Juan S. Morant P. Full Stack Developer",
+  title: 'Juan S. Morant P. | Tech Lead and Full Stack Developer',
+  description: "Portfolio of Juan S. Morant P. Tech Lead and Full Stack Developer",
 };
 
 /**
@@ -73,19 +73,19 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Medellin, Colombia based <strong className="text-stone-100">Full Stack Developer and Electronics Engineer</strong>, currently working
-        at <strong className="text-stone-100">Netux</strong>, leading the development of  then solutions which are <strong className="text-stone-100">transforming the health care</strong>.
+        I'm a Medellin (Colombia) based <strong className="text-stone-100">Tech Lead and Full Stack Developer</strong>, currently working
+        at <strong className="text-stone-100">Netux</strong>, leading the <strong className="text-stone-100">digital transformation of the health care</strong> in LATAM.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Triathlon</strong>,
-        spending time with my <strong className="text-stone-100">wife and kids</strong>, or reding{' '}
+        In my free time time, you can catch me training <strong className="text-stone-100">Triathlon</strong>,
+        spending time with my <strong className="text-stone-100">wife and kids</strong>, or reading{' '}
         <strong className="text-stone-100">interesting books</strong>.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: 'https://drive.google.com/uc?export=download&id=18rig1xECLGlVIiwC090yBr993Vo1lIIE',
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
@@ -103,9 +103,12 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `I have broad experience managing tech teams for Software and Hardware development and design of embedded systems. 
+  The daily activities of my current leading position include defining structures and strategies for the tech team to deliver faster and higher quality
+  products, I am often involved in technical discussions, roadmap definition, project managing, culture and coaching activities, among others.
+  My recent experience include customer engagement for ADAS/AD and the design of complex embedded systems.
+  KEY SKILLS: Effective learner, responding flexibly and positively to changing situations. Disciplined, analytical, responsible and empathic.
+  Teamwork spirit and proactive leader. Solid written and verbal communicator.`,
   aboutItems: [
     {label: 'Location', text: 'Medellin, CO', Icon: MapIcon},
     {label: 'Age', text: '33', Icon: CalendarIcon},
@@ -267,39 +270,49 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'July 2017',
+    location: 'Hochschule Kempten',
+    title: 'Master of Electrical Engineering',
+    content: <p>.</p>, // <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'February 2018',
+    location: 'Universidad Pontificia Bolivariana',
+    title: 'Master of Engineering',
+    content: <p>.</p>, //<p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    date: 'October 2018',
+    location: 'Universidad Pontificia Bolivariana',
+    title: 'Specialization in Management of Technological Innovation',
+    content: <p>.</p>, //<p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+  },
+  {
+    date: 'April 2012',
+    location: 'Universidad Pontificia Bolivariana',
+    title: 'Electronics Engineering',
+    content: <p>.</p>, //<p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'December 2020 - Present',
+    location: 'Netux, Medellin - Colombia.',
+    title: 'CTO',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Leading tech and engineering teams for the development of software and hardware solutions for Health Tech and IoT sectors.
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'July 2018 - November 2020',
+    location: 'Renesas Electronics Europe, Düsseldorf - Germany.',
+    title: 'Engineer, Automotive Solution Business Division',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        Customer engagement for ADAS/AD.
       </p>
     ),
   },
@@ -312,19 +325,24 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: 'Eugen Palnau, Software Architect at Renesas Electronics',
+      text: 'Juan and I worked on profiling tools for heterogeneous multicore embedded systems. Applying his deep technical understanding and focusing on customer requirements, Juan substancially contributed to the definition of the product. His creativity and curiosity were important factors for innovation. Juan is a great team player and a very nice person to work with!',
+      image: 'https://media.licdn.com/dms/image/C4D03AQGpfCMZDa-6xA/profile-displayphoto-shrink_100_100/0/1534573887931?e=1682553600&v=beta&t=IeC3n-byIXehAljK3lj4IYgrGNCkdgTg8Yx-PFAlG_s',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: 'Daniel Stephens, Senior Staff Engineer - Automotive Technical Customer Engagement Division',
+      text: 'I worked closely with Juan for more than 2 years at Renesas. Juan is an extremely talented engineer, dedicated to his responsibilities and a very nice person to work with. When tasked with a new subject, he demonstrated his technical abilities by developing his knowledge to quickly become the subject matter expert. In his role, he advised both customers and internal developers on resolving issues they experienced. His calm and patient approach to difficult people and situations is a remarkable gift very few individuals have. I am very fortunate to have had this opportunity to have worked with Juan and cannot thank him enough for all his contributions.',
+      image: 'https://media.licdn.com/dms/image/C4E03AQFrT102Y5QOpA/profile-displayphoto-shrink_100_100/0/1660019682917?e=1682553600&v=beta&t=bVPMclgSY0Xp8NX4cKo4IfhhAwt5m4vXUNx7B87cG1I',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: 'Benjamin Joa, Electronics design | Embedded systems | Internet of Things',
+      text: 'Morant es el líder del departamento de Hardware, en donde actualmente estoy trabajando. En todos éstos años trabajando con él, ha demostrado ser un gran profesional, con habilidades en gestión de equipos y proyectos, además de un amplio conocimiento en la electrónica y la programación. Morant es una gran persona, tanto en lo profesional como en lo personal, demostrando responsabilidad y organización, y qué siempre ha sabido cómo transmitir sus conocimientos y mantener la motivación en el equipo de trabajo. Recomendaría a Morant a cualquier trabajo que requiera a una persona capaz de gestionar proyectos, manejar equipos de trabajo con amplio conocimiento en el diseño y desarrollo de sistemas electrónicos.',
+      image: 'https://media.licdn.com/dms/image/C4E03AQFQFcB02AB01g/profile-displayphoto-shrink_100_100/0/1560565645488?e=1682553600&v=beta&t=Cj7ky-tQY8RDS924TYy3nNDs8S1VU718BQrJGhWQVBQ',
+    },
+    {
+      name: 'Jaime Aranguren, Staff Engineer - Global ADAS Solution Group at Renesas Electronics Corporation',
+      text: 'Juan did his internship at Renesas Electronics Europe GmbH under my direct supervision. He demonstrated to be a very smart and friendly guy, able to grasp very quickly the details of deep and wide technical matters, and not only to be able to understand them, but also to leverage on them to propose newer approaches and ways of using technology for improving on existing solutions, Being a calmed person, he does not tackle challenges in "any" manner, instead takes the time to analyze, study, and propose, all of this in a very structured way of thinking, nevertheless delivering results ahead of time and with very high level of quality, always exceeding expectations.',
+      image: 'https://media.licdn.com/dms/image/C5603AQHmzragzOqQbA/profile-displayphoto-shrink_100_100/0/1516283731732?e=1682553600&v=beta&t=G2IxZoF6-_VMk-NpZo39blj5P69yRqHEBjIjoFp4kAs',
     },
   ],
 };
@@ -335,7 +353,7 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'If you want to know me better, or just want to say hi, feel free to contact me.',
   items: [
     {
       type: ContactType.Email,
@@ -344,18 +362,18 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Medellin, Colombia',
+      href: 'https://goo.gl/maps/E2h2PSLY8HbYwoGi7',
     },
     {
       type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: '@juansmp',
+      href: 'https://www.instagram.com/juansmp/',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'juansmp',
+      href: 'https://github.com/juansmp',
     },
   ],
 };
@@ -364,9 +382,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/juansmp'},
+  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/13074837/juan-sebastian-morant'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/juan-morant/'},
+  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/juansmp/'},
+  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/juansmorant'},
 ];
