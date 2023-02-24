@@ -44,8 +44,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'Juan S. Morant P. | Full Stack Developer',
+  description: "Portfolio of Juan S. Morant P. Full Stack Developer",
 };
 
 /**
@@ -69,18 +69,17 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Tim Baker.`,
+  name: `I'm Juan Morant.`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        I'm a Medellin, Colombia based <strong className="text-stone-100">Full Stack Developer and Electronics Engineer</strong>, currently working
+        at <strong className="text-stone-100">Netux</strong>, leading the development of  then solutions which are <strong className="text-stone-100">transforming the health care</strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        In my free time time, you can catch me training in <strong className="text-stone-100">Triathlon</strong>,
+        spending time with my <strong className="text-stone-100">wife and kids</strong>, or reding{' '}
+        <strong className="text-stone-100">interesting books</strong>.
       </p>
     </>
   ),
@@ -108,12 +107,12 @@ export const aboutData: About = {
   to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
   in.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'Medellin, CO', Icon: MapIcon},
+    {label: 'Age', text: '33', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Colombian', Icon: FlagIcon},
+    {label: 'Interests', text: 'Health, Sports, Languages, Reading, Triathlon, Parenting', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Applied Sciences in Kempten and Pontifical Bolivarian University', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'Netux', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -125,16 +124,16 @@ export const skills: SkillGroup[] = [
     name: 'Spoken languages',
     skills: [
       {
+        name: 'Spanish',
+        level: 10,
+      },
+      {
         name: 'English',
         level: 10,
       },
       {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
+        name: 'German',
+        level: 6,
       },
     ],
   },
@@ -340,8 +339,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'juan@morant.co',
+      href: 'mailto:juan@morant.co',
     },
     {
       type: ContactType.Location,
