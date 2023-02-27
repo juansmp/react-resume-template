@@ -19,7 +19,8 @@
     "next": "^12.3.4",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "ts-pattern": "^4.0.3"
+    "ts-pattern": "^4.0.3",
+    "vercel": "^28.16.7"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^12.1.0",
