@@ -78,7 +78,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training <strong className="text-stone-100">Triathlon</strong>,
-        spending time with my <strong className="text-stone-100">wife and kids</strong>, or reading{' '}
+        having a fun time with my <strong className="text-stone-100">wife and kids</strong>, or reading{' '}
         <strong className="text-stone-100">interesting books</strong>.
       </p>
     </>
@@ -114,8 +114,8 @@ export const aboutData: About = {
     {label: 'Age', text: '33', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Colombian', Icon: FlagIcon},
     {label: 'Interests', text: 'Health, Sports, Languages, Reading, Triathlon, Parenting', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Applied Sciences in Kempten and Pontifical Bolivarian University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Netux', Icon: OfficeBuildingIcon},
+    {label: 'Study', text: 'University of Applied Sciences in Kempten (Germany) and Pontifical Bolivarian University (Colombia)', Icon: AcademicCapIcon},
+    {label: 'Employment', text: 'CTO at Netux', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -148,13 +148,14 @@ export const skills: SkillGroup[] = [
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'Typescript / Javascript',
         level: 7,
       },
-      {
+      /*{
         name: 'GraphQL',
         level: 6,
       },
+      */
     ],
   },
   {
@@ -165,16 +166,33 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
+        name: 'Python',
+        level: 8,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'Java',
+        level: 7,
       },
     ],
   },
   {
+    name: 'IoT and Embedded development',
+    skills: [
+      {
+        name: 'C / C++ / ASM',
+        level: 10,
+      },
+      {
+        name: 'Altium Designer / Hardware design',
+        level: 9,
+      },
+      {
+        name: 'IPC / RTOS / Linux',
+        level: 8,
+      },
+    ],
+  },
+  /*{
     name: 'Mobile development',
     skills: [
       {
@@ -191,6 +209,7 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
+  */
 ];
 
 /**
@@ -200,67 +219,67 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage1,
   },
   {
     title: 'Project title 2',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage2,
   },
   {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage3,
   },
   {
     title: 'Project title 4',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage4,
   },
   {
     title: 'Project title 5',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage5,
   },
   {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage6,
   },
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage7,
   },
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage8,
   },
   {
     title: 'Project title 9',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage9,
   },
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage10,
   },
   {
     title: 'Project title 11',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://github.com/juansmp',
     image: porfolioImage11,
   },
 ];
