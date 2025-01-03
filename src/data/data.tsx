@@ -305,7 +305,17 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'December 2020 - Present',
+    date: 'September 2023 - Present',
+    location: 'Analog Devices, Valencia - Spain.',
+    title: 'Senior Product Applications Engineer',
+    content: (
+      <p>
+        Support the customers design-in process by providing both pre-silicon and post-silicon hardware and software tools as well as documentation and technical support.
+      </p>
+    ),
+  },
+  {
+    date: 'December 2020 - August 2023',
     location: 'Netux, Medellin - Colombia.',
     title: 'CTO',
     content: (
