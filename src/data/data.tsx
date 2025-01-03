@@ -75,8 +75,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Medellin (Colombia) based <strong className="text-stone-100">Tech Lead and Full Stack Developer</strong>, currently working
-        at <strong className="text-stone-100">Netux</strong>, leading the <strong className="text-stone-100">digital transformation of the health care</strong> in LATAM.
+        I'm a <strong className="text-stone-100">Tech Lead and Full Stack Developer</strong> based in Valencia (Spain), currently working
+        at <strong className="text-stone-100">Analog Devices</strong> as Applications Engineer, accelerating <strong className="text-stone-100">technology breakthroughs</strong> worldwide.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training <strong className="text-stone-100">Triathlon</strong>,
@@ -106,18 +106,18 @@ export const heroData: Hero = {
 export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `I have broad experience managing tech teams for Software and Hardware development and design of embedded systems. 
-  The daily activities of my current leading position include defining structures and strategies for the tech team to deliver faster and higher quality
-  products, I am often involved in technical discussions, roadmap definition, project managing, culture and coaching activities, among others.
-  My recent experience include customer engagement for ADAS/AD and the design of complex embedded systems.
+  The daily activities of my current position include supporting the customers design-in process by providing both pre-silicon and post-silicon hardware and software tools as well as documentation and technical support.
+  My recent experience include defining structures and strategies for the tech team to deliver faster and higher quality
+  products, roadmap definition, project managing, culture and coaching activities, as well as  customer engagement for ADAS/AD and the design of complex embedded systems.
   KEY SKILLS: Effective learner, responding flexibly and positively to changing situations. Disciplined, analytical, responsible and empathic.
   Teamwork spirit and proactive leader. Solid written and verbal communicator.`,
   aboutItems: [
-    {label: 'Location', text: 'Medellin, CO', Icon: MapIcon},
-    {label: 'Age', text: '33', Icon: CalendarIcon},
+    {label: 'Location', text: 'Valencia, ES', Icon: MapIcon},
+    {label: 'Age', text: '35', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Colombian', Icon: FlagIcon},
     {label: 'Interests', text: 'Health, Sports, Languages, Reading, Triathlon, Parenting', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Applied Sciences in Kempten (Germany) and Pontifical Bolivarian University (Colombia)', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'CTO at Netux', Icon: OfficeBuildingIcon},
+    {label: 'Employment', text: 'Apps Engineer at Analog Devices', Icon: OfficeBuildingIcon},
   ],
 };
 
@@ -143,14 +143,18 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Frontend development',
+    name: 'Software development',
     skills: [
       {
-        name: 'React',
+        name: 'Python',
         level: 9,
       },
       {
-        name: 'Typescript / Javascript',
+        name: 'Frontend development: React / Typescript / Javascript',
+        level: 7,
+      },
+      {
+        name: 'Backend development: Node.js / Python / Java',
         level: 7,
       },
       /*{
@@ -161,23 +165,6 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Backend development',
-    skills: [
-      {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Python',
-        level: 8,
-      },
-      {
-        name: 'Java',
-        level: 7,
-      },
-    ],
-  },
-  {
     name: 'IoT and Embedded development',
     skills: [
       {
@@ -185,7 +172,7 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'Altium Designer / Hardware design',
+        name: 'Hardware design / Altium Designer',
         level: 9,
       },
       {
